@@ -1,4 +1,5 @@
-# physical_activity_detection_model
+# Pulse2act : a model that turns pulse readings into intensity of physical activity
+
 IPython notebook to develop a model that detects levels of physical activities using pulse readings 
 from smartwatches or other wearable devices. Here, I used the PAMAP2 dataset from the UC Irvine
 Machine Learning dataset repository and accessible through this URL
