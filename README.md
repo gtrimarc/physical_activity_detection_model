@@ -17,5 +17,18 @@ from the UC Irvine Machine Learning repository to build the model. The dataset i
 
 https://archive.ics.uci.edu/ml/datasets/PAMAP2+Physical+Activity+Monitoring
 
-I used this dataset to train a support vector machine classifier to associate the pulse readings to
-intensity levels of the physical activity of the subject.
+The dataset includes readings of a total of 52 body vitals monitored on several parts of the body of the
+subjects that were studied along with with sensory data such as accelerometer, magnetometer, and gyroscope
+data that precisely describe the movement in which the subjects are involved when the readings are taken.
+The readings are associated to a particular type of activity in which the subjects are involved. I chose
+to group these activities into four groups labeled minimum, low, medium, and high intensity activities.
+The goal of the data analysis project is to apply a machine learning techniques to develop a model that
+correlates sensor readings to the activity level. The final objective is to deploy this model into a smart
+wearable device, for instance a smart watch to recognize the intensity of body activity tracking over time 
+readings of vital signs such as body temperature and pulse as well as other sensor data available from the device.
+
+In this preliminary study I trained a support vector machine classifier to associate the pulse and temperature
+readings at the wrist to intensity levels of the physical activity of the subject obtaining a model with an 
+accuracy of 64.8 %. In this project I plan to test other important descriptors that might be relevant to
+obtain an optimal model, and I will test other classifier models including neural networks or other deep learning
+techniques.
