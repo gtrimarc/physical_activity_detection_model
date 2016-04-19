@@ -11,8 +11,9 @@ in this project could be used to design wearable devices that track the intensit
 and inexpensive temperature and pulse sensors. This project has the potential to lead to the development of a wearable 
 activity monitoring device similar to the Apple watch, but more cost effective.
 
-In the preliminary analysis that I am presenting, I used the PAMAP2 dataset from the UC Irvine Machine Learning 
-repository and accessible through this URL:
+Here, I include the IPython notebook for a prelimirary study of the developmenr of a model that detects levels of 
+physical activities using pulse and temperature readings for instance from a smartwatch. I am using the PAMAP2 dataset 
+from the UC Irvine Machine Learning repository to build the model. The dataset if accessible through this URL:
 
 https://archive.ics.uci.edu/ml/datasets/PAMAP2+Physical+Activity+Monitoring
 
