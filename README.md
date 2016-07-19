@@ -1,19 +1,13 @@
-# Pulse2act : a model that turns pulse readings into intensity of physical activity
+# Pulse2act: machine learning at work to track the intensity of physical activity!
 
-IPython notebook to develop a model that detects levels of physical activities using pulse and temperature 
-readings from a smartwatch. 
+This Jupyter notebook demonstrates the use of machine learning to detect the intensity of physical activity using the readings of wearable devices that can track body motions and basic physiological parameters such as heart rate. 
 
-Millions of Americans are obese or overweight in part due to a lack of vigorous exercise. Many people have trouble 
-motivating themselves,  either because they believe they are already active enough or, worse yet, they don’t know 
-how much is enough. The preliminary data analysis I am presenting shows a direct correlation between body temperature 
-and heart rate measured at the hand. This is important, because this data and the model that I propose to develop 
-in this project could be used to design wearable devices that track the intensity of the physical activity using simple
-and inexpensive temperature and pulse sensors. This project has the potential to lead to the development of a wearable 
-activity monitoring device similar to the Apple watch, but more cost effective.
+Many people have trouble motivating themselves to do vigorous exercise, either because they believe they are already active \
+enough or, worse yet, they don’t know how much is enough. A smart device that can detect the level of the physical activity of an individual over time would help to keep track the stretches of intense physical activity performed. Moreover, such an exercise tracking application would allow a user to monitor the progress towars a set goal for the amount of exercise to perform in a given period of time. 
 
-Here, I include the IPython notebook for a prelimirary study of the developmenr of a model that detects levels of 
-physical activities using pulse and temperature readings for instance from a smartwatch. I am using the PAMAP2 dataset 
-from the UC Irvine Machine Learning repository to build the model. The dataset if accessible through this URL:
+The preliminary analysis I am presenting here shows a direct correlation between the heart rate and accelleration measured by the device with intensity levels of physical activity. This model could become the engine of an app to monitor and record over time the level of physical activity of a person using a set of readings from a smartphone and/or other wearable devises that that person uses in his or her daily life. 
+
+In this study I am using the PAMAP2 dataset from the UC Irvine Machine Learning repository to build the model. The dataset if accessible through this URL:
 
 https://archive.ics.uci.edu/ml/datasets/PAMAP2+Physical+Activity+Monitoring
 
@@ -23,12 +17,11 @@ data that precisely describe the movement in which the subjects are involved whe
 The readings are associated to a particular type of activity in which the subjects are involved. I chose
 to group these activities into four groups labeled minimum, low, medium, and high intensity activities.
 The goal of the data analysis project is to apply a machine learning techniques to develop a model that
-correlates sensor readings to the activity level. The final objective is to deploy this model into a smart
-wearable device, for instance a smart watch to recognize the intensity of body activity tracking over time 
-readings of vital signs such as body temperature and pulse as well as other sensor data available from the device.
+correlates sensor readings to the activity level. The final objective is to deploy the model as an app that
+tracks the intensity of body activity over time using readings of vital signs and body motion from personal
+smart devices.
 
-In this preliminary study I trained a support vector machine classifier to associate the pulse and temperature
-readings at the wrist to intensity levels of the physical activity of the subject obtaining a model with an 
-accuracy of 64.8 %. In this project I plan to test other important descriptors that might be relevant to
-obtain an optimal model, and I will test other classifier models including neural networks or other deep learning
-techniques.
+In this preliminary study I am using a support vector machine classifier to learn the intensity of physical
+activity starting from the training data. The initial tests show a promising accuracy of at least 80 %.
+As next steps I plan to test other important descriptors that might be relevant to obtain an optimal model. 
+I will also test other classifiers such as neural networks.
