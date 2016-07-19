@@ -14,7 +14,7 @@ https://archive.ics.uci.edu/ml/datasets/PAMAP2+Physical+Activity+Monitoring
 The dataset includes readings of a total of 52 body vitals monitored on several parts of the body of the
 subjects that were studied along with sensory data such as accelerometer, magnetometer, and gyroscope
 data that precisely describe the movement in which the subjects are involved when the readings are taken.
-The readings are associated to a particular type of activity in which the subjects are involved. I chose
+The readings are associated to particular type of activity in which the subjects are involved. I chose
 to group these activities into four groups labeled minimum, low, medium, and high intensity activities.
 The goal of the data analysis project is to apply a machine learning techniques to develop a model that
 correlates sensor readings to the activity level. The final objective is to deploy the model as an app that
